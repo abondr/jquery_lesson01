@@ -1,0 +1,13 @@
+.daysClass,.hoursClass,.minuteClass,.secondClass >span:nth-child(odd){
+    background-color: #b9bbbe;
+    color:#bd2130;
+    width:20px;
+    margin: 0 1px 0 0;
+    font-size: 30px;
+}
+.daysClass,.hoursClass,.minuteClass,.secondClass > span:nth-child(even){
+    background-color: #bd2130;
+    color:#b9bbbe;
+    width:20px;
+    font-size: 30px;
+}

@@ -1,10 +1,20 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 18 Aug, 2018, 7:14:57 PM
-    Author     : abon
-*/
+.row .h2{
+    text-align: center;
+    color:#0056b3;
+    background-color: #ffe8a1;
+    width:100%;
+}
+
+.table thead {
+    background-color: #e0a800;
+    color:#721c24;
+}
+.table tbody tr:nth-child(odd){
+    background-color: #abdde5;
+    color:#dc3545;
+}
+.table tbody tr:nth-child(even){
+    background-color: #b1dfbb;
+    color:#383d41;
+}
 
