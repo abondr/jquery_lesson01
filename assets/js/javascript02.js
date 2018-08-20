@@ -3,10 +3,10 @@ var initializeClock = function (identifier,endtime){
   var interval = setInterval(function(){
                     var formatted1 = getTimeRemaining(endtime);
                     if(!formatted1.error){
-                        $(identifier).html("<span class='daysClass'>"
-                        + formatted1.days+"</span> Days <span class='hoursClass'>"
-                        + formatted1.hours+"</span> Hours <span class='minuteClass'>" 
-                        + formatted1.minutes + "</span> Minutes <span class='secondClass'>" 
+                        $(identifier).html("<span class='digitClass'>"
+                        + formatted1.days+"</span> Days <span class='digitClass'>"
+                        + formatted1.hours+"</span> Hours <span class='digitClass'>" 
+                        + formatted1.minutes + "</span> Minutes <span class='digitClass'>" 
                         + formatted1.seconds +"</span> seconds Remaining");
                     }else{
                          clearInterval(interval);
